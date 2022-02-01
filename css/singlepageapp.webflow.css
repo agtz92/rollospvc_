@@ -360,6 +360,69 @@
   padding-bottom: 100px;
 }
 
+.feature-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.feature-image-mask {
+  width: 100%;
+  margin-right: 40px;
+}
+
+.feature-image {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+  -o-object-position: 50% 50%;
+  object-position: 50% 50%;
+}
+
+.whatsapplink {
+  position: fixed;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  z-index: 20;
+  display: block;
+  overflow: hidden;
+  width: 80vw;
+  margin-right: 10%;
+  margin-left: 10%;
+  text-align: left;
+}
+
+.link-block-7 {
+  z-index: 100;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 3px solid #000;
+  background-color: hsla(0, 0%, 100%, 0.82);
+}
+
+.headwhatsapp {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-right: 2%;
+  font-size: 16px;
+  font-weight: 700;
+  white-space: nowrap;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
 @media screen and (max-width: 991px) {
   .cards-grid-container {
     grid-column-gap: 20px;
@@ -449,6 +512,19 @@
 
   .main-content {
     padding: 40px 20px;
+  }
+
+  .feature-section {
+    padding: 40px 20px;
+  }
+
+  .feature-image-mask {
+    margin-right: 0px;
+  }
+
+  .feature-image {
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
